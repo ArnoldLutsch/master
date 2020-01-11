@@ -1,0 +1,25 @@
+# Version of Kubernetes API to be used
+apiVersion: apps/v1beta1
+# type of resource
+kind: Deployment
+metadata:
+# name of the pod
+  name: dashboard-app
+spec:
+  # defines the number of copies of the pods we want to run
+  replicas: 3
+  selector:
+    matchLabels:
+    # label to select all "dashboard-app" pods
+      app: dashboard-app
+  template:
+    metadata:
+      labels:
+        # label “app=dashboard-app” to all pods created by this deployment
+        app: dashboard-app
+    spec:
+      containers:
+        # name of the conatiner      
+      - name: dashboard-container
+        # container image to run
+        image: gcr.io/<YOUR-PROJECT>/dashboard-app:latest

@@ -1,0 +1,112 @@
+/*Fonts ––––––––––––––––––––––––––––––––––––––––––––––––––*/
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: #F3F4F9;
+  font-family: 'Roboto';
+  color: #4d505c;
+}
+
+.study-browser-banner {
+  background: rgba(53, 88, 118, 1);
+  color: white;
+  padding: 12px;
+  padding-left: 48px;
+}
+
+.div-logo{
+  display: inline-block;
+  float: right;
+}
+
+.logo{
+  height: 35px;
+  padding: 6px;
+  margin-top: 3px;
+}
+
+.h2-title{
+  font-family: 'Roboto';
+  display: inline-block;
+  letter-spacing: 3.8px;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+
+h5, h6{
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 18px;
+}
+
+h5{
+  padding-left: 42px;
+}
+
+.alert {
+  padding: 20px;
+  background-color: #f44336; 
+  color: white;
+}
+
+.bg-white{
+  background-color: white;
+  padding: 24px 32px;
+  height: 375px;
+  margin-bottom: 20px;
+}
+
+.app-body{
+  margin-left: 4%;
+}
+
+.card{
+  padding:48px 24px 48px 24px;
+  margin-left: 4%;
+}
+
+.card-left{
+  padding: 48px 24px 48px 24px;
+  height: 375px;
+  margin-left: 0px;
+  margin-bottom: 20px;
+}
+
+.padding-top-bot{
+  padding-top: 12px;
+  padding-bottom: 18px;
+}
+
+.upload{
+  width: 100%;
+  line-height: 60px;
+  border-width: 1px;
+  border-style: dashed;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.Select-control{
+  border: 1px solid #4d505c;
+  margin-bottom: 50px;
+}
+
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#dropdown_topwords_output{
+  width: 450px;
+  height: 250px;
+}
+
+#dropdown_toptags{
+  padding-left: 42px;
+  width: 450px;
+  height: 50px;
+}

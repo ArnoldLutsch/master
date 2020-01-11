@@ -1,0 +1,8 @@
+flask
+dash
+dash_core_components
+dash_html_components
+plotly_express
+google-cloud-bigquery
+wordcloud
+pybase64
