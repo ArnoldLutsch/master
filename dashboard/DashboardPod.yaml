@@ -20,6 +20,6 @@ spec:
     spec:
       containers:
         # name of the conatiner      
-      - name: dashboard-container
+        name: dashboard-container
         # container image to run
         image: gcr.io/<YOUR-PROJECT>/dashboard-app:latest
